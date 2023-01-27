@@ -1,0 +1,48 @@
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.sortMethods() took 11 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[TestNG] Running:
+  C:\Users\HP\AppData\Local\Temp\testng-eclipse--2001531151\testng-customsuite.xml
+
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+${HH:mm:ss.SSS}[main]io.github.bonigarcia.wdm.WebDriverManager-Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+${HH:mm:ss.SSS}[main]io.github.bonigarcia.wdm.WebDriverManager-Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+${HH:mm:ss.SSS}[main]testCases.TC_001_LoginTest------** Starting TC_001_LoginTest **-----
+${HH:mm:ss.SSS}[main]testCases.TC_001_LoginTest-User Name Entered
+${HH:mm:ss.SSS}[main]testCases.TC_001_LoginTest-Password Entered
+${HH:mm:ss.SSS}[main]testCases.TC_001_LoginTest-Clicked on Login Button
+${HH:mm:ss.SSS}[main]testCases.TC_001_LoginTest------** Test Case PASSED **-----
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[TestNG] Time taken by org.testng.internal.ExitCodeListener@1cfc2538: 0 ms
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@6bee793f: 47 ms
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[TestNG] Time taken by org.testng.reporters.jq.Main@3ba348ca: 94 ms
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[TestNG] Time taken by org.testng.reporters.FailedReporter@56e9a474: 0 ms
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[TestNG] Time taken by org.testng.reporters.XMLReporter@695c938d: 15 ms
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@12b5736c: 16 ms
+${HH:mm:ss.SSS}[main]org.testng.internal.Utils-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@33a55bd8: 0 ms
