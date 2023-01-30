@@ -4,10 +4,11 @@ import org.testng.annotations.Test;
 
 import pageObjects.LoginPage;
 import testBase.BaseClass;
+import utilities.ReadXLS;
 
 public class TC_001_LoginTest extends BaseClass {
-	@Test
-	public void successful_Login() {
+	@Test 
+	public void successful_Login() throws Exception {
 		logger.info("-----** Starting TC_001_LoginTest **-----");
 		LoginPage login = new LoginPage(driver);
 		login.enterUserID("mngr473610");
@@ -18,5 +19,4 @@ public class TC_001_LoginTest extends BaseClass {
 		logger.info("Clicked on Login Button");
 		logger.info("-----** Test Case PASSED **-----");
 	}
-
 }

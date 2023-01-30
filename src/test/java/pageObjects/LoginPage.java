@@ -14,7 +14,7 @@ public class LoginPage extends BasePage {
 	WebElement userID;
 
 	@FindBy(name = "password")
-	WebElement password;
+	WebElement pass;
 
 	@FindBy(name = "btnLogin")
 	WebElement loginBtn;
@@ -23,8 +23,8 @@ public class LoginPage extends BasePage {
 		userID.sendKeys(username);
 	}
 
-	public void enterPassword(String pass) {
-		password.sendKeys(pass);
+	public void enterPassword(String password) {
+		pass.sendKeys(password);
 	}
 
 	public void clickLogin() {
