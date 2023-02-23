@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,6 +101,11 @@
                       <a href="#" panel-name="suite-ParallelTesting" class="show-methods passed suite-ParallelTesting"> (show)</a> <!-- show-methods passed suite-ParallelTesting -->
                     </span>
                     <div class="method-list-content passed suite-ParallelTesting">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelTesting" title="testCases.TC_001_LoginTest" class="method navigator-link" hash-for-method="click_leftmenu">click_leftmenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-ParallelTesting" title="testCases.TC_001_LoginTest" class="method navigator-link" hash-for-method="successful_Login">successful_Login</a> <!-- method navigator-link -->
@@ -126,6 +131,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="click_leftmenu">
+                  </a> <!-- click_leftmenu -->
+                  <span class="method-name">click_leftmenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="successful_Login">
                   </a> <!-- successful_Login -->
                   <span class="method-name">successful_Login</span>
@@ -143,12 +155,12 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;ParallelTesting&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TC_001_LoginTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- test --&gt;
 &lt;/suite&gt; &lt;!-- ParallelTesting --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -160,7 +172,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -186,16 +198,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'successful_Login')
 data.setCell(0, 2, 'testCases.TC_001_LoginTest')
-data.setCell(0, 3, 3598);
+data.setCell(0, 3, 20809);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'click_leftmenu')
+data.setCell(1, 2, 'testCases.TC_001_LoginTest')
+data.setCell(1, 3, 2213);
 window.suiteTableData['ParallelTesting']= { tableData: data, tableDiv: 'times-div-ParallelTesting'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-ParallelTesting">
               </div> <!-- times-div-ParallelTesting -->
             </div> <!-- times-div -->
@@ -228,15 +244,31 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">successful_Login</span>
-                <span class="method-start">9916 ms</span>
+                <span class="method-start">13395 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">screenShot([TestResult name=successful_Login status=SUCCESS method=TC_001_LoginTest.successful_Login()[pri:0, i...)</span>
-                <span class="method-start">13517 ms</span>
+                <span class="method-name">teardown</span>
+                <span class="method-start">34212 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=successful_Login status=SUCCESS method=TC_001_LoginTest.successful_Login()[pri:1, i...)</span>
+                <span class="method-start">34212 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">34405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">click_leftmenu</span>
+                <span class="method-start">39349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=click_leftmenu status=SUCCESS method=TC_001_LoginTest.click_leftmenu()[pri:2, insta...)</span>
+                <span class="method-start">41564 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">13519 ms</span>
+                <span class="method-start">41565 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

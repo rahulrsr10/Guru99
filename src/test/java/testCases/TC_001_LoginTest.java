@@ -1,16 +1,20 @@
 package testCases;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import pageObjects.LoginPage;
 import testBase.BaseClass;
-import utilities.ReadXLS;
 
 public class TC_001_LoginTest extends BaseClass {
-	@Test 
+	LoginPage login;
+	@Test (priority=1 )
 	public void successful_Login() throws Exception {
 		logger.info("-----** Starting TC_001_LoginTest **-----");
-		LoginPage login = new LoginPage(driver);
+		login = new LoginPage(driver);
 		login.enterUserID("mngr473610");
 		logger.info("User Name Entered");
 		login.enterPassword("aparynu");
@@ -19,4 +23,15 @@ public class TC_001_LoginTest extends BaseClass {
 		logger.info("Clicked on Login Button");
 		logger.info("-----** Test Case PASSED **-----");
 	}
+	
+	@Test(priority=2)
+	public void click_leftmenu() throws Exception {
+		successful_Login();
+		List<WebElement> leftmenu=driver.findElements(By.xpath("//ul[@class=\"menusubnav\"]/li/a"));
+		
+		for(WebElement list:leftmenu) {
+			System.out.println(list.getAttribute("href"));
+		}
+	}
+	
 }

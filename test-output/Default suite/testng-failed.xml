@@ -6,8 +6,9 @@
       <class name="testCases.TC_001_LoginTest">
         <methods>
           <include name="teardown"/>
-          <include name="successful_Login"/>
+          <include name="screenShot"/>
           <include name="setup"/>
+          <include name="successful_Login"/>
         </methods>
       </class> <!-- testCases.TC_001_LoginTest -->
     </classes>
